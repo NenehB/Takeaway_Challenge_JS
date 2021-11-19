@@ -18,4 +18,10 @@ describe('check if I want to order something', function(){
     expect(menu.choiceOfDish('Chips')).toEqual(['Pasta', 'Kimchi', 'Chips'])
   })
 
+  it('check total matches order', function(){
+    menu.choiceOfDish("Pasta")
+    menu.choiceOfDish("Kimchi")
+    expect(menu.total_order()).toEqual(8)
+  })
+
 })

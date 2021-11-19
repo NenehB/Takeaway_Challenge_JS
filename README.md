@@ -22,13 +22,13 @@ You must submit a pull request to this repo with your code by 9am Monday morning
 
 # Task
 
-As a customer
+``As a customer
 So that I can check if I want to order something
-I would like to see a list of dishes with prices
+I would like to see a list of dishes with prices``
 
-As a customer
+``As a customer
 So that I can order the meal I want
-I would like to be able to select some number of several available dishes
+I would like to be able to select some number of several available dishes``
 
 As a customer
 So that I can verify that my order is correct
