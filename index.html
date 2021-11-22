@@ -3,12 +3,114 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
   <title>Neneh's Takeaway</title>
+  <style> 
+    * {
+      margin-left: 10;
+    padding: 0;
+    } 
+  </style>
   <script src="src/meanu.js"></script>
   <script src="src/interface.js"></script>
 </head>
 <body>
-  <h1>Hello World!!!</h1>
-  
+  <nav class="nav">
+    <a class="navbar-brand" href="#">Neneh's Takeaway</a>
+    <a class="nav-link active" href="#">Home</a>
+    <a class="nav-link" href="#">Menu info</a>
+    <a class="nav-link" href="#">Contact</a>
+  </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-80" style="width: 80%;" src="https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Tomato-Spinach-Pasta-side-1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-80" style="width: 80%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ydfrvEbryu5qMS_U2ZKef_p4ZrkeWDRNREIA5hh7oB8s_BltIkEsgjy1SAou8ZVRhaA&usqp=CAU" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-80" style="width: 80%;" src="https://www.lovepotatoes.co.uk/media/1344/chips-2-retouched_72dpi.jpg?anchor=center&mode=crop&width=650&height=345&rnd=131091748380000000&Format=Jpeg" alt="Third slide">
+        </div>
+      </div>
+    </div>
+
+  <section>
+    <h1>£ <p id="price"></p></h1>
+    <p>Menus </p>
+    <div class="row ">
+      <div class="col-sm-6">
+        <div class="card " style="width: 18rem;">
+          <img class="card-img-top" src="https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Tomato-Spinach-Pasta-side-1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Pasta</h5>
+            <p class="card-text">£5 .</p>
+            <button id="Pasta" type="button" class="btn btn-primary">Add</button>
+          </div>
+        </div>
+      </div>  
+
+      <div class="col-sm-6 ">
+        <div class="card " style="width: 18rem;">
+         <img class="card-img-top" src="https://www.takeaway.com/foodwiki/uploads/sites/11/2019/08/pizza_2-1080x960.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Pizza</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-primary">Add</button>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-sm-6 mx-auto ">
+          <div class="card " style="width: 18rem;">
+            <img class="card-img-top" src="https://www.lovelesscafe.com/wp-content/uploads/2019/11/mac-n-cheese-recipes.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mac & Cheese</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary">Add</button>
+            </div>
+          </div> 
+       </div> 
+
+      <div class="col-sm-6 mx-auto ">
+       <div class="card " style="width: 18rem;">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ydfrvEbryu5qMS_U2ZKef_p4ZrkeWDRNREIA5hh7oB8s_BltIkEsgjy1SAou8ZVRhaA&usqp=CAU" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kimchi</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-primary">Add</button>
+          </div>
+       </div> 
+      </div> 
+
+    <div class="col-sm-6 mx-auto ">
+      <div class="card " style="width: 18rem;">
+       <img class="card-img-top" src="https://www.tasteofhome.com/wp-content/uploads/2020/03/Smash-Burgers_EXPS_TOHcom20_246232_B10_06_10b.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Burger</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+     </div> 
+    </div> 
+
+    <div class="col-sm-6 mx-auto ">
+      <div class="card " style="width: 18rem;">
+      <img class="card-img-top" src="https://www.lovepotatoes.co.uk/media/1344/chips-2-retouched_72dpi.jpg?anchor=center&mode=crop&width=650&height=345&rnd=131091748380000000&Format=Jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Chips</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+    </div> 
+    </div> 
+  </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
 </body>
 </html>
